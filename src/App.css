@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Address > .cards {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.ContactCard {
+    align-items: center;
+    text-align: left;
+    background-color: #ffffcc;
+    border: 0.125rem solid #ddd;
+    border-radius: 0.25rem;
+    box-shadow: 3px 3px 3px #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.5rem;
+    padding: 1rem;
+    width: 20%;
+}
